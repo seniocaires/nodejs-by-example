@@ -1,4 +1,3 @@
 FROM node:6
-RUN npm install -g grunt-cli gulp mocha \ 
-    && npm install grunt-contrib-watch grunt-contrib-uglify -save
+RUN npm install grunt-cli gulp mocha grunt-contrib-watch grunt-contrib-uglify -g
 EXPOSE 8081
